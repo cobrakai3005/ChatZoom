@@ -9,7 +9,7 @@ router.get(
 );
 
 router.get(
-  "/github/callback",
+  "https://chatzoom-6sdj.onrender.com/auth/github/callback",
   passport.authenticate("github", {
     failureRedirect: "/login.html",
   }),
